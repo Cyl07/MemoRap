@@ -9,6 +9,20 @@
     border: .2rem solid grey;
     box-shadow: inset 50% 50% 5px white;
     position: relative;
+    animation-duration: 3s;
+    animation-name: tourne;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: rotate(0deg);
+}
+
+@keyframes tourne {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .cd-ray {
