@@ -300,3 +300,10 @@ h3 {
 input:checked+div {
     display: none;
 }
+
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
