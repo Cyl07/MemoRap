@@ -8,4 +8,9 @@ class PlayController extends AbstractController
     {
         return $this->twig->render("Play/play.html.twig");
     }
+
+    public function lobby()
+    {
+        return $this->twig->render("Play/lobby.html.twig");
+    }
 }

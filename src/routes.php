@@ -15,4 +15,5 @@ return [
     'items/delete' => ['ItemController', 'delete',],
     'play' => ['PlayController', 'play',],
     'join' => ['JoinController', 'join',],
+    'lobby' => ['PlayController', 'lobby',],
 ];

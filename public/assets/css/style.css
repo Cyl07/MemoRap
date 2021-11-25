@@ -302,10 +302,6 @@ input {
     color: white;
 }
 
-.title {
-
-}
-
 input:checked+div {
     display: none;
 }
