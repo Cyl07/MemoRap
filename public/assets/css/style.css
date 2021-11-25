@@ -199,7 +199,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+.button {
     font-family: Heaters, serif;
 }
 
@@ -304,6 +305,27 @@ input:checked+div {
 .home-container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.button {
+    font-size: 3rem; 
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #000000;
+    padding: 8px 13px 8px 13px;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    width: 80%;
+    text-align: center;
+}
+
+.buttons {
+   display: grid;
+   grid-column: 1fr, 1fr;
+   grid-gap: 2rem;
+   margin-left: 2.5rem;
 }
