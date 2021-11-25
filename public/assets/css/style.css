@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Heaters";
+    src: url("/assets/css/fonts/Heaters.otf");
+}
+
+h1,
+h2,
+h3 {
+    font-family: Heaters, serif;
+}
+
 .cd {
     border-radius: 50%;
     width: 80vw;
@@ -9,11 +20,6 @@
     border: .2rem solid grey;
     box-shadow: inset 50% 50% 5px white;
     position: relative;
-    animation-duration: 3s;
-    animation-name: tourne;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    transform: rotate(0deg);
 }
 
 @keyframes tourne {
@@ -76,6 +82,11 @@
     z-index: 1;
     width: 2rem;
     height: 100%;
+    animation-duration: 3s;
+    animation-name: tourne;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: rotate(0deg);
 }
 
 .left {
@@ -83,4 +94,15 @@
     background: linear-gradient( 90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)70%);
     left: unset;
     right: 50%;
+}
+
+.cd .title {
+    position: absolute;
+    z-index: 2;
+    font-size: 7rem;
+    color: white;
+}
+
+input:checked+div {
+    display: none;
 }
