@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Heaters";
+    src: url("/assets/css/fonts/Heaters.otf");
+}
+
+h1,
+h2,
+h3 {
+    font-family: Heaters, serif;
+}
+
 .cd {
     border-radius: 50%;
     width: 80vw;
@@ -7,6 +18,17 @@
     justify-content: center;
     align-items: center;
     border: .2rem solid grey;
+    box-shadow: inset 50% 50% 5px white;
+    position: relative;
+}
+
+@keyframes tourne {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .cd-ray {
@@ -20,6 +42,18 @@
     align-items: center;
 }
 
+.cd-ray.center {
+    background-color: red;
+    border: unset;
+}
+
+.cd-ray.pin {
+    background-color: white;
+    width: .5rem;
+    height: .5rem;
+    border: unset;
+}
+
 .waiting-container {
     display: flex;
     overflow: hidden;
@@ -27,10 +61,48 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100vh;
+    background-color: red;
 }
 
 .rules {
-    border: .2rem solid grey;
     border-radius: 1rem;
     padding: 1rem;
+    text-align: center;
+    color: white;
+    font-style: bold;
+    font-size: 1.2rem;
+}
+
+.light {
+    position: absolute;
+    background: linear-gradient( -90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)70%);
+    left: 50%;
+    transform-origin: left center;
+    transform: rotate(20deg);
+    z-index: 1;
+    width: 2rem;
+    height: 100%;
+    animation-duration: 3s;
+    animation-name: tourne;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: rotate(0deg);
+}
+
+.left {
+    transform-origin: right center;
+    background: linear-gradient( 90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)70%);
+    left: unset;
+    right: 50%;
+}
+
+.cd .title {
+    position: absolute;
+    z-index: 2;
+    font-size: 7rem;
+    color: white;
+}
+
+input:checked+div {
+    display: none;
 }
