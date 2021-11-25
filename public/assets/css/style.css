@@ -1,0 +1,29 @@
+.cd {
+    border-radius: 50%;
+    width: 80vw;
+    height: 80vw;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid grey;
+}
+
+.cd-ray {
+    border-radius: 50%;
+    background-color: #222222;
+    border: .2rem solid grey;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.waiting-container {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
