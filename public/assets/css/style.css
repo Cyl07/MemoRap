@@ -1,15 +1,14 @@
 @keyframes animate {
-    0%{
+    0% {
         transform: translateY(0) rotate(0deg);
         opacity: 1;
         border-radius: 100%;
         opacity: 100%;
     }
-
     60% {
         opacity: 0%;
     }
-    100%{
+    100% {
         transform: translateY(-1000px) rotate(720deg);
         opacity: 0;
         border-radius: 100%;
@@ -27,6 +26,7 @@
     background: #ff0000;
     overflow: hidden;
 }
+
 .background li {
     border-radius: 100%;
     position: absolute;
@@ -34,10 +34,10 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgb(0,0,0);
-    background: rgb(0,0,0);
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgb(187, 10, 10) 0%, rgba(187, 10, 10,1) 30%, rgba(187, 10, 10,1) 100%);
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(187, 10, 10) 0%, rgba(187, 10, 10, 1) 30%, rgba(187, 10, 10, 1) 100%);
     animation: animate 26s linear infinite;
 }
 
@@ -48,6 +48,7 @@
     bottom: -187px;
     animation-delay: 1s;
 }
+
 .background li:nth-child(1) {
     left: 2%;
     width: 173px;
@@ -55,6 +56,7 @@
     bottom: -173px;
     animation-delay: 1s;
 }
+
 .background li:nth-child(2) {
     left: 43%;
     width: 144px;
@@ -62,6 +64,7 @@
     bottom: -144px;
     animation-delay: 10s;
 }
+
 .background li:nth-child(3) {
     left: 82%;
     width: 183px;
@@ -69,6 +72,7 @@
     bottom: -183px;
     animation-delay: 6s;
 }
+
 .background li:nth-child(4) {
     left: 19%;
     width: 154px;
@@ -76,6 +80,7 @@
     bottom: -154px;
     animation-delay: 14s;
 }
+
 .background li:nth-child(5) {
     left: 44%;
     width: 156px;
@@ -83,6 +88,7 @@
     bottom: -156px;
     animation-delay: 15s;
 }
+
 .background li:nth-child(6) {
     left: 63%;
     width: 177px;
@@ -90,6 +96,7 @@
     bottom: -177px;
     animation-delay: 18s;
 }
+
 .background li:nth-child(7) {
     left: 82%;
     width: 185px;
@@ -97,6 +104,7 @@
     bottom: -185px;
     animation-delay: 19s;
 }
+
 .background li:nth-child(8) {
     left: 25%;
     width: 168px;
@@ -106,92 +114,92 @@
 }
 
 @media (min-width: 850px) {
+    .background li:nth-child(9) {
+        left: 33%;
+        width: 161px;
+        height: 161px;
+        bottom: -161px;
+        animation-delay: 27s;
+    }
+    .background li:nth-child(10) {
+        left: 8%;
+        width: 138px;
+        height: 138px;
+        bottom: -138px;
+        animation-delay: 25s;
+    }
+    .background li:nth-child(11) {
+        left: 44%;
+        width: 134px;
+        height: 134px;
+        bottom: -134px;
+        animation-delay: 4s;
+    }
+    .background li:nth-child(12) {
+        left: 41%;
+        width: 187px;
+        height: 187px;
+        bottom: -187px;
+        animation-delay: 32s;
+    }
+    .background li:nth-child(13) {
+        left: 19%;
+        width: 111px;
+        height: 111px;
+        bottom: -111px;
+        animation-delay: 12s;
+    }
+    .background li:nth-child(14) {
+        left: 42%;
+        width: 182px;
+        height: 182px;
+        bottom: -182px;
+        animation-delay: 22s;
+    }
+    .background li:nth-child(15) {
+        left: 44%;
+        width: 137px;
+        height: 137px;
+        bottom: -137px;
+        animation-delay: 61s;
+    }
+    .background li:nth-child(16) {
+        left: 85%;
+        width: 183px;
+        height: 183px;
+        bottom: -183px;
+        animation-delay: 9s;
+    }
+    .background li:nth-child(17) {
+        left: 37%;
+        width: 159px;
+        height: 159px;
+        bottom: -159px;
+        animation-delay: 45s;
+    }
+    .background li:nth-child(18) {
+        left: 31%;
+        width: 177px;
+        height: 177px;
+        bottom: -177px;
+        animation-delay: 15s;
+    }
+    .background li:nth-child(19) {
+        left: 31%;
+        width: 179px;
+        height: 179px;
+        bottom: -179px;
+        animation-delay: 1s;
+    }
+    .background li:nth-child(20) {
+        left: 75%;
+        width: 186px;
+        height: 186px;
+        bottom: -186px;
+        animation-delay: 67s;
+    }
+}
 
-.background li:nth-child(9) {
-    left: 33%;
-    width: 161px;
-    height: 161px;
-    bottom: -161px;
-    animation-delay: 27s;
-}
-.background li:nth-child(10) {
-    left: 8%;
-    width: 138px;
-    height: 138px;
-    bottom: -138px;
-    animation-delay: 25s;
-}
-.background li:nth-child(11) {
-    left: 44%;
-    width: 134px;
-    height: 134px;
-    bottom: -134px;
-    animation-delay: 4s;
-}
-.background li:nth-child(12) {
-    left: 41%;
-    width: 187px;
-    height: 187px;
-    bottom: -187px;
-    animation-delay: 32s;
-}
-.background li:nth-child(13) {
-    left: 19%;
-    width: 111px;
-    height: 111px;
-    bottom: -111px;
-    animation-delay: 12s;
-}
-.background li:nth-child(14) {
-    left: 42%;
-    width: 182px;
-    height: 182px;
-    bottom: -182px;
-    animation-delay: 22s;
-}
-.background li:nth-child(15) {
-    left: 44%;
-    width: 137px;
-    height: 137px;
-    bottom: -137px;
-    animation-delay: 61s;
-}
-.background li:nth-child(16) {
-    left: 85%;
-    width: 183px;
-    height: 183px;
-    bottom: -183px;
-    animation-delay: 9s;
-}
-.background li:nth-child(17) {
-    left: 37%;
-    width: 159px;
-    height: 159px;
-    bottom: -159px;
-    animation-delay: 45s;
-}
-.background li:nth-child(18) {
-    left: 31%;
-    width: 177px;
-    height: 177px;
-    bottom: -177px;
-    animation-delay: 15s;
-}
-.background li:nth-child(19) {
-    left: 31%;
-    width: 179px;
-    height: 179px;
-    bottom: -179px;
-    animation-delay: 1s;
-}
-.background li:nth-child(20) {
-    left: 75%;
-    width: 186px;
-    height: 186px;
-    bottom: -186px;
-    animation-delay: 67s;
-}
-}
 @font-face {
     font-family: "Heaters";
     src: url("/assets/css/fonts/Heaters.otf");
@@ -265,6 +273,7 @@ h3 {
     color: white;
     font-style: bold;
     font-size: 1.2rem;
+    z-index: 1;
 }
 
 .light {
@@ -301,9 +310,36 @@ input:checked+div {
     display: none;
 }
 
-.home-container{
+.home-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.game-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-form-text {
+    font-family: Heaters, serif;
+    font-size: 2.3rem;
+}
+
+.game-form-input {
+    width: 60%;
+    height: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.game-form-button {
+    margin: 1rem;
+    width: 45%;
+    height: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Heaters, serif;
 }
