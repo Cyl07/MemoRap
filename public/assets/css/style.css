@@ -343,3 +343,34 @@ input:checked+div {
     text-align: center;
     font-family: Heaters, serif;
 }
+
+.lobby-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+
+.lobby-container h1 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 3rem;
+    z-index: 1;
+    text-align: center;
+}
+
+.lobby-container div {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    z-index: 1;
+}
+
+.lobby-container input {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    width: 90%;
+    height: 3rem;
+    font-family: Heaters, serif;
+    font-size: 2rem;
+    z-index: 1;
+}
