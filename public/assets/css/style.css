@@ -26,4 +26,11 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    height: 100vh;
+}
+
+.rules {
+    border: .2rem solid grey;
+    border-radius: 1rem;
+    padding: 1rem;
 }
