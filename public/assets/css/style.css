@@ -227,7 +227,7 @@ h3,
 .nekfeu {
     font-family: Heaters, serif;
     font-size: 2rem;
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
 }
 
 .cd {
@@ -241,6 +241,7 @@ h3,
     border: .2rem solid grey;
     box-shadow: inset 50% 50% 5px white;
     position: relative;
+    margin-top: 2rem;
 }
 
 @keyframes tourne {
@@ -320,9 +321,9 @@ h3,
 
 .cd .title {
     position: absolute;
-    top: 0%;
+    top: -10%;
     z-index: 2;
-    font-size: 7.5rem;
+    font-size: 8rem;
     color: white;
 }
 
@@ -350,7 +351,7 @@ input:checked+div {
     width: 40%;
     text-align: center;
     z-index: 1;
-    border-radius: 5%;
+    border-radius: 10%;
     padding: 0 2rem 0 2rem;
 }
 
@@ -525,4 +526,9 @@ input:checked+div {
     animation-duration: .5s;
     animation-name: nope;
     animation-timing-function: linear;
+}
+
+.nekfeu {
+    font-family: LondrinaSolid-Light, serif;
+    font-size: 1.7rem;
 }
