@@ -35,10 +35,10 @@ insert into artiste (name) values
 ("tupac");
 
 insert into `line` (artiste_id, text) values
-(1, "We're in trouble, big trouble"),
-(1, "And if he is as bananas as you say"),
-(2, "Say they ready for the funk, but I don't think they knowin"),
-(2, "Straight to the depths of Hell is where them cowards goin");
+(1, "À l'étranger, t'es un étranger, ça sert à rien d'être raciste (simple)"),
+(1, "Les mecs les plus fous sont souvent les mecs les plus tristes (basique)"),
+(2, "Faut jamais céder à la pression du groupe"),
+(2, "D'tfaçons, quand tu fais du mal, au fond, tu ressens du doute");
 
 insert into `round` (st_line_id, nd_line_id) values
 (1, 2),
