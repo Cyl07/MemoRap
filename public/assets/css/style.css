@@ -216,6 +216,11 @@ input {
     font-family: Heaters, serif;
 }
 
+.nekfeu {
+    font-family: Heaters, serif;
+    font-size: 2rem;
+}
+
 .cd {
     border-radius: 50%;
     width: 80vw;
