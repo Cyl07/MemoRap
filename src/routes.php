@@ -17,5 +17,5 @@ return [
     'join' => ['JoinController', 'join',],
     'round' => ['PlayController', 'round',],
     'round2' => ['PlayController', 'round2'],
-    'Result' => ['PlayController', 'Result']
+    'result' => ['PlayController', 'result']
 ];
