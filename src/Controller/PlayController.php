@@ -2,6 +2,9 @@
 
 namespace App\Controller;
 
+use Ratchet\WebSocket\MessageComponentInterface;
+use Ratchet\ConnectionInterface;
+
 class PlayController extends AbstractController
 {
     public function play()

@@ -1,5 +1,34 @@
 {% extends 'layout.html.twig' %}
 
-{% block content %}
 
+{% block content %}
+    <input type="checkbox" id="lobby" hidden>
+    <div class="lobby-container">
+        <h1>Pour rejoindre: </h1>
+        <div></div>
+        <input type="button" value="Commencer" id="button">
+    </div>
+    <input type="checkbox" id="game" hidden>
+    <div class="game-container">
+
+    <!-- stilisé le truc -->
+        <div class="phrases">
+            <p id="first">Hello world</p>
+            <p id="second">Hello world</p>
+        </div>
+        <div class="timer">
+            <p id="time">15</p>
+        </div>
+        <div class="point">
+            <p id="point">+2</p>
+        </div>
+    </div>
+    <input type="checkbox" id="victory" hidden>
+    <div class="victory-container">
+    <!-- Faite la page de fin-->
+    </div>
+{% endblock %}
+
+{% block javascript %}
+<script src="assets/js/lobby.js"></script>
 {% endblock %}
