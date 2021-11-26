@@ -5,22 +5,12 @@
     <div class="game-container">
 
     <!-- stilisé le truc -->
-        <div class="phrases">
-            <p id="first">Hello world</p>
-            <p id="second">Hello world</p>
-        </div>
-        <div class="timer">
-            <p id="time">15</p>
-        </div>
-        <div class="point">
-            <p id="point">+2</p>
-        </div>
-    <div>
-        <a class="button" href="/Result">Result</a>
+        <form class="playing">
+            <label class="booba">Nom du second artiste</label>
+            <input class="kaaris" type="text">
+            <label class="booba">Nom de la seconde musique</label>
+            <input class="kaaris" type="text">
+        </form>
+        <a class="button" href="/result">Suivant</a>
     </div>
-    </div>
-{% endblock %}
-
-{% block javascript %}
-<script src="assets/js/lobby.js"></script>
 {% endblock %}

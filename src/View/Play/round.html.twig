@@ -22,6 +22,7 @@
         <div class="timer">
             <p id="time">15</p>
         </div>
+        
         <div class="point">
             <p id="point">Rappel: 1 point le titre et 1 point l'artiste</p>
         </div>
@@ -30,14 +31,13 @@
     <input type="checkbox" id="victory" hidden>
     <div class="victory-container">
     <!-- Faite la page de fin-->
-    <h2 class="reponses"> Féliciations la réponse était bien Orelsan !</h2>
-    <h2 class="reponses"> Le titre était bien "Basique"</h2>
-    <h2 class="reponses"> Bien vu la réponse était bien Nekfeu !</h2>
-    <h2 class="reponses"> Vous n'aviez pas le titre c'était "Nique les clones" !</h2>
-    </div>
-    <div>
-        <a class="button" href="/result">Next</a>
-
+    <form class="playing">
+        <label class="booba">Nom du premier artiste</label>
+        <input class="kaaris" type="text">
+        <label class="booba">Nom de la première musique</label>
+        <input class="kaaris" type="text">
+        <a class="button" href="/round2">Suivant</a>
+    </form>
     </div>
 {% endblock %}
 

@@ -13,4 +13,9 @@ class JoinController extends AbstractController
     {
         return $this->twig->render("Join/join2.html.twig");
     }
+
+    public function join3()
+    {
+        return $this->twig->render("Join/join3.html.twig");
+    }
 }
