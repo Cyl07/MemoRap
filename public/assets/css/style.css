@@ -216,6 +216,11 @@ input {
     font-family: Heaters, serif;
 }
 
+.nekfeu {
+    font-family: Heaters, serif;
+    font-size: 2rem;
+}
+
 .cd {
     border-radius: 50%;
     width: 80vw;
@@ -393,9 +398,6 @@ input:checked+div {
     border-left: 2px solid #000000;
 }
 
-height: 100vh;
-
-}
 .game-form {
     display: flex;
     flex-direction: column;
