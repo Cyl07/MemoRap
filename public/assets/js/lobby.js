@@ -31,8 +31,8 @@ button.addEventListener("click", async() => {
     lobby.checked = true;
     game.checked = false;
     point.innerHTML = "+2pts";
-    first.innerHTML = "We're in trouble, big trouble";
-    second.innerHTML = "And if he is as bananas as you say";
+    first.innerHTML = "À l'étranger, t'es un étranger, ça sert à rien d'être raciste (simple)";
+    second.innerHTML = "Les mecs les plus fous sont souvent les mecs les plus tristes (basique) ";
     for (i = 0; i < 15; i++) {
         if (i == 7) {
             point.innerHTML = "+1pt";
@@ -43,8 +43,8 @@ button.addEventListener("click", async() => {
     }
     timer.innerHTML = 15;
     point.innerHTML = "+2pts";
-    first.innerHTML = "Say they ready for the funk, but I don't think they knowin";
-    second.innerHTML = "Straight to the depths of Hell is where them cowards goin";
+    first.innerHTML = "Faut jamais céder à la pression du groupe";
+    second.innerHTML = "D'tfaçons, quand tu fais du mal, au fond, tu ressens du doute";
     for (i = 0; i < 15; i++) {
         if (i == 7) {
             point.innerHTML = "+1pt";
