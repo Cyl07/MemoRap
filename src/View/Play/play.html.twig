@@ -1,7 +1,7 @@
 {% extends 'layout.html.twig' %}
 
 {% block content %}
-<input type="checkbox" id="waiting">
+<input type="checkbox" id="waiting" hidden>
 <div class="waiting-container">
     <div class="cd">
         <h2 class="title">PATIENTE</h2>
@@ -31,7 +31,7 @@
         <p class="nekfeu"> Bienvenue dans MémoRap, tu dois trouver à quel titre et quel rappeur appartienne les phrases affichées à l'écran. Tu as quinze secondes par round pour trouver, plus tu trouves rapidement plus tu as de point.</p>
     </div>
 </div>
-<input type="checkbox" id="play">
+<input type="checkbox" id="play" hidden>
 <div class="game-container">
     <form class="game-form">
         <label class="game-form-text">Réponse</label>
@@ -39,7 +39,7 @@
         <input type="button" class="game-form-button" id="submit" value="Valider">
     </form>
 </div>
-<input type="checkbox" id="victory">
+<input type="checkbox" id="victory" hidden>
 
     <!-- Faite le petit victory, tout en dur -->
 <div>qzudhqzkduh</div>
