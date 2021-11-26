@@ -236,10 +236,13 @@ h2,
 h3,
 .phrases,
 .button,
-.booba,
 .booba1,
 .jul {
     font-family: Heaters, serif;
+}
+
+.booba {
+    font-family: LondrinaSolid-Light;
 }
 
 .nekfeu {
