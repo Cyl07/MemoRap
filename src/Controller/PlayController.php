@@ -12,8 +12,18 @@ class PlayController extends AbstractController
         return $this->twig->render("Play/play.html.twig");
     }
 
-    public function lobby()
+    public function round()
     {
-        return $this->twig->render("Play/lobby.html.twig");
+        return $this->twig->render("Play/round.html.twig");
+    }
+
+    public function round2()
+    {
+        return $this->twig->render("Play/round2.html.twig");
+    }
+
+    public function result()
+    {
+        return $this->twig->render("Play/result.html.twig");
     }
 }

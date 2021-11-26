@@ -15,5 +15,7 @@ return [
     'items/delete' => ['ItemController', 'delete',],
     'play' => ['PlayController', 'play',],
     'join' => ['JoinController', 'join',],
-    'lobby' => ['PlayController', 'lobby',],
+    'round' => ['PlayController', 'round',],
+    'round2' => ['PlayController', 'round2'],
+    'Result' => ['PlayController', 'Result']
 ];
