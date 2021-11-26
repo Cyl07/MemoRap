@@ -34,10 +34,12 @@ class Game implements MessageComponentInterface
             $numRecv == 1 ? '' : 's'
         );
 
-        foreach ($this->clients as $client) {
-            if ($from !== $client) {
-                // The sender is not the receiver, send to each client connected
-                $client->send($msg);
+        if ($msg === "begin") {
+            foreach ($this->clients as $client) {
+                if ($from !== $client) {
+                    // The sender is not the receiver, send to each client connected
+                    $client->send($msg);
+                }
             }
         }
     }

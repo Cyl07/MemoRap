@@ -207,7 +207,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+.phrases {
     font-family: Heaters, serif;
 }
 
@@ -373,4 +374,77 @@ input:checked+div {
     font-family: Heaters, serif;
     font-size: 2rem;
     z-index: 1;
+}
+
+.game-container {
+    display: grid;
+    grid-template-rows: 6fr 1fr 2fr 1fr;
+    height: 100vh;
+    text-align: center;
+}
+
+.phrases {
+    grid-row: 1/2;
+    font-size: 3.5rem;
+    z-index: 1;
+}
+
+.timer {
+    grid-row: 2/3;
+    z-index: 1;
+}
+
+#time[value] {
+    -webkit-appearance: none;
+    height: 50%;
+    width: 80%;
+    color: black;
+}
+
+.point {
+    text-align: unset;
+    align-self: end;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+#time::after {
+    content: "s";
+}
+
+.right {
+    background-color: greenyellow;
+}
+
+@keyframes nope {
+    0% {
+        position: relative;
+        left: -5px;
+    }
+    20% {
+        position: relative;
+        left: 5px;
+    }
+    40% {
+        position: relative;
+        left: -5px;
+    }
+    60% {
+        position: relative;
+        left: 5px;
+    }
+    80% {
+        position: relative;
+        left: -5px;
+    }
+    100% {
+        position: relative;
+        left: 5px;
+    }
+}
+
+.wrong {
+    animation-duration: .5s;
+    animation-name: nope;
+    animation-timing-function: linear;
 }
