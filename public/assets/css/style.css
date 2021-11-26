@@ -112,6 +112,14 @@
     bottom: -168px;
     animation-delay: 38s;
 }
+.rappeur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Heaters, serif;
+    font-size: 2rem;
+}
+
 
 @media (min-width: 850px) {
     .background li:nth-child(9) {
@@ -219,6 +227,7 @@ h3,
 .nekfeu {
     font-family: Heaters, serif;
     font-size: 2rem;
+    margin-bottom: 6rem;
 }
 
 .cd {
