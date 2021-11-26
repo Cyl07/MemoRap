@@ -30,24 +30,24 @@ button.addEventListener("click", async() => {
     conn.send("begin");
     lobby.checked = true;
     game.checked = false;
-    point.innerHTML = "+2pts";
+    point.innerHTML = "";
     first.innerHTML = "À l'étranger, t'es un étranger, ça sert à rien d'être raciste (simple)";
     second.innerHTML = "Les mecs les plus fous sont souvent les mecs les plus tristes (basique) ";
-    for (i = 0; i < 15; i++) {
+    for (i = 0; i < 10; i++) {
         if (i == 7) {
-            point.innerHTML = "+1pt";
+            point.innerHTML = "";
         }
         console.log(timer.innerHTML);
         timer.innerHTML = timer.innerHTML - 1;
         await sleep(1000);
     }
-    timer.innerHTML = 15;
-    point.innerHTML = "+2pts";
+    timer.innerHTML = 10;
+    point.innerHTML = "";
     first.innerHTML = "Faut jamais céder à la pression du groupe";
     second.innerHTML = "D'tfaçons, quand tu fais du mal, au fond, tu ressens du doute";
-    for (i = 0; i < 15; i++) {
+    for (i = 0; i < 10; i++) {
         if (i == 7) {
-            point.innerHTML = "+1pt";
+            point.innerHTML = "";
         }
         console.log(timer.innerHTML);
         timer.innerHTML = timer.innerHTML - 1;

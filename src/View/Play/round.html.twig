@@ -4,10 +4,10 @@
 {% block content %}
     <input type="checkbox" id="lobby" hidden>
     <div class="lobby-container">
-        <h1>rappeur présent: </h1>
+        <h1>Participant : </h1>
         <div class = rappeur>
-        <p> Nekfeu</p>
-        <p> Jul</p>
+        <p> Bilal</p>
+        <p> Alexandre</p>
         </div>
         <input type="button" value="Commencer" id="button">
     </div>
@@ -20,18 +20,26 @@
             <p id="second">Hello world</p>
         </div>
         <div class="timer">
-            <p id="time">15</p>
+            <p id="time">10</p>
         </div>
+          <div class="buzzer">
+    <a href="#">Buzzer</a>
+  </div>
         <div class="point">
-            <p id="point">rappel: 1 point le titre et 1 point l'artiste</p>
+            <p id="point">Rappel: 1 point le titre et 1 point l'artiste</p>
         </div>
-        <div>
-        <a class="button" href="/round2">Next</a>
-    </div>
+    
     </div>
     <input type="checkbox" id="victory" hidden>
     <div class="victory-container">
     <!-- Faite la page de fin-->
+    <form class="playing">
+        <label class="booba">Nom du premier artiste</label>
+        <input class="kaaris" type="text">
+        <label class="booba">Nom de la première musique</label>
+        <input class="kaaris" type="text">
+        <a class="button" href="/round2">Suivant</a>
+    </form>
     </div>
 {% endblock %}
 

@@ -14,8 +14,10 @@ return [
     'items/add' => ['ItemController', 'add',],
     'items/delete' => ['ItemController', 'delete',],
     'play' => ['PlayController', 'play',],
-    'join' => ['JoinController', 'join',],
+    'join1' => ['JoinController', 'join1',],
+    'join2' => ['JoinController', 'join2',],
+    'join3' => ['JoinController', 'join3',],
     'round' => ['PlayController', 'round',],
     'round2' => ['PlayController', 'round2'],
-    'Result' => ['PlayController', 'Result']
+    'result' => ['PlayController', 'result']
 ];
